@@ -14,7 +14,7 @@ load_dotenv(dotenv_path)
 API_TOKEN = os.environ.get("BOT_API_TOKEN")
 
 # このbot宛のメッセージで、どの応答にも当てはまらない場合の応答文字列
-DEFAULT_REPLY = "ちょっと何言っているかわからないです。環境変数は連携できましたか？"
+DEFAULT_REPLY = "ちょっと何言っているかわからないです。"
 
 # プラグインスクリプトを置いてあるサブディレクトリ名のリスト
 PLUGINS = ['plugins']
