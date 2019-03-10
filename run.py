@@ -3,6 +3,9 @@
 # coding: utf-8
 
 from slackbot.bot import Bot
+import slackbot_settings
+
+API_TOKEN = slackbot_settings.API_TOKEN
 
 def main():
     bot = Bot()
