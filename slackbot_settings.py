@@ -10,6 +10,7 @@ from dotenv import load_dotenv
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
+
 # botアカウントのトークンを指定
 API_TOKEN = os.environ["BOT_API_TOKEN"]
 
