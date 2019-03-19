@@ -7,9 +7,11 @@ import slackbot_settings
 
 API_TOKEN = slackbot_settings.API_TOKEN
 
+
 def main():
     bot = Bot()
     bot.run()
+
 
 if __name__ == "__main__":
     print('start slackbot')
